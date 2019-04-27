@@ -1,11 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+body{
+  background-color: tomato;
+}
+
 div{
-  display: inline-block; 
+  display: inline-block;
+}
+
+.header{
+  border-radius: 4px;
+  text-align: center;
+  background-color: burlywood;
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
 #header{
+  box-shadow: 10px 10px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 20px;
+  align-content: center;
+  border-radius: 4px;
+  padding-top: -20px;
+    padding: 40px;
+  background-color: burlywood;
+    display: inline-block;
     margin: 15px;
     text-align: center;
-  }
-  #body{
-    display: inline;
   }

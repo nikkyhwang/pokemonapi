@@ -15,14 +15,13 @@ let doStuff = function(data) {
   for ( i=0; i < data.cards.length; i++ ) 
 {
   
-     const template = `<div><section id="header"><h1>${data.cards[i].name} </h1> 
+     const template = `<section id="header"><h1>${data.cards[i].name} </h1> 
      <section id ="body"><img src="${data.cards[i].imageUrl}" alt="">
      <p> <b>Rarity:</b> ${data.cards[i].rarity} </p> 
      <p><b>Type:</b> ${data.cards[i].types}</p> 
     <p><b>Series:</b> ${data.cards[i].series}</p> 
     <p><b>Trading Card Number:</b> ${data.cards[i].number}</p> </section>
-    </section>
-    </div>`;
+    </section>`;
 
     $('#app').append( template ); 
 
